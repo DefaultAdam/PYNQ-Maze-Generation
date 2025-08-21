@@ -16,7 +16,7 @@ This project implements a hardware-software co-design system for parallel random
 8. [Expanded Testing](#expanded-testing)
 9. [Scalability](#scalability)
 10. [Results](#results)
-11. [Video](#video)
+11. [Video](#project-video)
 
 ---
 
@@ -193,6 +193,9 @@ Based on **50+ runs**:
 - **Raw Hardware Time**: **~8.3ms** (excludes Python control, CPU-FPGA communication, DMA setup).
 - **Total Generation Time (4 mazes)**: **~13ms** (includes overhead).
 - **CPU-Only Generation**: **~17.9ms/maze**, **~80ms** for 4 mazes.
+
+<img width="555" height="433" alt="MazeGeneration_Time" src="https://github.com/user-attachments/assets/93f9f798-a494-4c76-b7c3-f4e1b561269a" />
+
 
 ### AI Pathfinding Performance
 - **Average Solve Time**: **~31.8ms**.
